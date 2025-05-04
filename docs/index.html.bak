@@ -1,11 +1,25 @@
 <!doctype html>
 <html lang="en-US">
+  
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+	<meta name="author" content="Eric Faust" />
     <title>Arbeitsheft: Einführung in die Hardwaretechnik</title>
+	
+	<link rel="stylesheet" href="../css/style.css" />
+
   </head>
+ 
   <body>
-    Test
+	<header>
+		Test
+	</header>
+	<nav>
+	
+	</nav>
+	
+	
   </body>
+
 </html>
