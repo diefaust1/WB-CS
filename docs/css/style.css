@@ -4,3 +4,7 @@ body{
 header {
 	font-size: 2em;
 }
+.nav {
+	list-style: none;
+	display: flex;
+}
