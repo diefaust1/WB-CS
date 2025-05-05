@@ -7,7 +7,8 @@
 	<meta name="author" content="Eric Faust" />
     <title>Arbeitsheft: Informatik und Bildung</title>
 	
-	<link rel="stylesheet" href="../css/style.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="icon" href="media/28px_Faust.png" type="image/x-icon" />
 
   </head>
  
@@ -16,10 +17,24 @@
 		Einführung in die Hardwaretechnik
 	</header>
 	<nav>
-	
+		<ul class="nav">
+			<li>Was ist ein Computer</li>
+			<li>CPU</li>
+			<li>GPU</li>
+			<li>Speicher</li>
+			<li>Mainboard Netzteil</li>
+			<li>Wrap-Up</li>	
+		</ul>
 	</nav>
-	
-	
+	<div class="taskOne">
+		Aufgabe 1:
+	</div>
+	<div class="taskTwo">
+		Aufgabe 2:
+	</div>
+	<div class="taskThree">
+		Aufgabe 3:
+	</div>
   </body>
 
 </html>
