@@ -18,7 +18,7 @@
 	<nav>
 		<ul class="nav">
 			<li>VN-Architektur</li>
-			<li>CPU</li>
+			<li><a href="cpu.html">CPU</a></li>
 			<li>GPU</li>
 			<li>Speicher</li>
 			<li>Mainboard &#38; Netzteil</li>
@@ -29,13 +29,16 @@
 		Von Neumann Architektur
 	</div>
 	<div class="taskOne">
-		Aufgabe 1:
+		Aufgabe 1: Welche Aufgaben muss ein Computer bewältigen?
 	</div>
 	<div class="taskTwo">
-		Aufgabe 2:
+		Aufgabe 2: <br>
+		<img src="media/VNA_Diagram_empty_no-arrows.svg" alt="Von Neumann Architektur"></img>
 	</div>
 	<div class="taskThree">
-		Aufgabe 3:
+		Aufgabe 3:<br>
+		<button id="displayBnt" type="button">Anzeigen</button><br>
+		<img src="media/VNA_Diagram_filled.svg" alt="Von Neumann Architektur"></img>
 	</div>
   </body>
 

@@ -16,7 +16,7 @@
 	</header>
 	<nav>
 		<ul class="nav">
-			<li>VN-Architektur</li>
+			<li><a href="index.html">VN-Architektur</a></li>
 			<li>CPU</li>
 			<li>GPU</li>
 			<li>Speicher</li>

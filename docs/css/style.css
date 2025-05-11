@@ -40,4 +40,8 @@ nav{
 .taskThree {
 	margin: 1em;
 }
+#displayBnt {
+	background-color: red;
+	margin-top: 1em;
+}
 

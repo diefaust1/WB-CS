@@ -1,3 +1,4 @@
+/*groundstructure of the document*/
 body{
 	color: black;
 	background-color: #E77448;
@@ -29,6 +30,7 @@ nav{
 	padding: 0em;
 	background-color: #eae4e1;
 }
+/*content of the page*/
 .taskOne {
 	margin: 1em;
 }
@@ -36,6 +38,10 @@ nav{
 	margin: 1em;
 }
 .taskThree {
+	margin: 1em;
+}
+#displayBnt {
+	background-color: red;
 	margin: 1em;
 }
 
