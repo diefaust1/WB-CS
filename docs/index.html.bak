@@ -32,13 +32,14 @@
 		Aufgabe 1: Welche Aufgaben muss ein Computer bewältigen?
 	</div>
 	<div class="taskTwo">
-		Aufgabe 2: <br>
-		<img src="media/VNA_Diagram_empty_no-arrows.svg" alt="Von Neumann Architektur"></img>
+		Aufgabe 2: Vor euch findet ihr eine Mind-Map zum Thema der Von Neumann Architektur.<br>
+		Schaut euch die folgenden Informationen an und füllt die frei stehenden Boxen aus.<br>
+		<img src="media/VNA_Diagram_blank.svg" alt="Von Neumann Architektur"></img>
 	</div>
 	<div class="taskThree">
 		Aufgabe 3:<br>
 		<button id="displayBnt" type="button">Anzeigen</button><br>
-		<img src="media/VNA_Diagram_filled.svg" alt="Von Neumann Architektur"></img>
+		<img src="media/VNA_Diagram_half-filled.svg" alt="Von Neumann Architektur"></img>
 	</div>
   </body>
 
