@@ -4,6 +4,8 @@ body{
 	background-color: #E77448;
 	display: grid;
 	margin: 3em;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
 }
 header {
 	font-size: 2em;
@@ -31,8 +33,20 @@ nav{
 	background-color: #eae4e1;
 }
 /*content of the page*/
+p{
+	
+}
+.p1Header {
+	font-weight: bold;      
+	text-align: center;
+}
+.p2Header {
+	font-weight: bold;      
+	text-align: center;
+}
 .taskOne {
 	margin: 1em;
+	text-align: justify;
 }
 .taskTwo {
 	margin: 1em;
@@ -40,6 +54,53 @@ nav{
 }
 .taskThree {
 	margin: 1em;
+	text-align: justify;
+}
+.taskFive {
+	margin: 1em;
+	text-align: justify;
+}
+.taskSix {
+	margin: 1em;
+	text-align: justify;
+}
+.taskSeven {
+	margin: 1em;
+	text-align: justify;
+}
+.taskEight {
+	margin: 1em;
+	text-align: justify;
+}
+.taskNine {
+	margin: 1em;
+	text-align: justify;
+}
+.taskTen {
+	margin: 1em;
+	text-align: justify;
+}
+.taskEleven {
+	margin: 1em;
+	text-align: justify;
+}
+.taskTwelve {
+	margin: 1em;
+	text-align: justify;
+}
+.taskThirteen {
+	margin: 1em;
+	text-align: justify;
+}
+.taskFourteen {
+	margin: 1em;
+	text-align: justify;
+}
+.videoContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;               /* space between the videos */
+  flex-wrap: wrap;         
 }
 #displayBnt {
 	background-color: red;
