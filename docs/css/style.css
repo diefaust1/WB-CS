@@ -1,9 +1,11 @@
-/*groundstructure of the document*/
+/* groundstructure of the document */
 body{
 	color: black;
 	background-color: #E77448;
 	display: grid;
 	margin: 3em;
+	margin-left: 20em;
+	margin-right: 20em;
 	font-family: Arial, sans-serif;
 	font-size: 16px;
 }
@@ -31,6 +33,9 @@ nav{
 	margin-bottom: 2em;
 	padding: 0em;
 	background-color: #eae4e1;
+}
+.center {
+	text-align: center;;
 }
 /*content of the page*/
 p{
@@ -96,14 +101,76 @@ p{
 	margin: 1em;
 	text-align: justify;
 }
-.videoContainer {
-  display: flex;
-  justify-content: center;
-  gap: 20px;               /* space between the videos */
-  flex-wrap: wrap;         
+.taskFifteen {
+	margin: 1em;
+	text-align: justify;
 }
-#displayBnt {
+.videoContainer {
+	display: flex;
+	justify-content: center;
+	gap: 20px;               /* space between the videos */
+	flex-wrap: wrap;         
+}
+.imageContainer {
+	display: flex;
+	justify-content: center;
+	gap: 50px;               
+	flex-wrap: wrap;         
+}
+.buttonContainer {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+#displayButton {
 	background-color: red;
 	margin-top: 1em;
 }
+#PSButton {
+	background-color: white;
+	margin-top: 1em;
+}
+/* table-GPU */
+table {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    }
+th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #333;
+    color: #fff;
+}
+tr:hover {
+    background-color: #f0f0f0;
+}
+td:first-child {
+    font-weight: bold;
+    width: 30%;
+}
+/* Component-Assembly */
+label {
+	display: block;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	font-weight: bold;
+}
 
+textarea {
+    width: 100%;
+    max-width: 500px;
+    height: 100px;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+}
