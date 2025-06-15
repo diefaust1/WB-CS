@@ -1,4 +1,4 @@
-const btn   = document.getElementById('displayBnt');
+const btn   = document.getElementById('displayButton');
 const img = document.getElementById('hiddenImage');
 
   btn.addEventListener('click', () => {
