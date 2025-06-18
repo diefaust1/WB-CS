@@ -4,10 +4,11 @@ body{
 	background-color: #E77448;
 	display: grid;
 	margin: 3em;
-	margin-left: 20em;
-	margin-right: 20em;
+	margin-left: 20%;
+	margin-right: 20%;
 	font-family: Arial, sans-serif;
 	font-size: 16px;
+	line-height: 1.6;
 }
 header {
 	font-size: 2em;
@@ -48,6 +49,14 @@ p{
 .p2Header {
 	font-weight: bold;      
 	text-align: center;
+}
+.pageEnd {
+	margin: 1em;
+	text-align: justify;
+}
+.intro {
+	margin: 1em;
+	text-align: justify;
 }
 .taskOne {
 	margin: 1em;
