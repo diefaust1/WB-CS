@@ -183,3 +183,6 @@ textarea {
     border-radius: 6px;
     resize: vertical;
 }
+#textareaSeven {
+	height: 50px;
+}
