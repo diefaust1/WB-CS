@@ -59,12 +59,11 @@
 	<div class="taskTwo">
 		<b>Aufgabe 2:
 		</p>
-			</b> Vor euch findet ihr eine Mind-Map auf einem A3-Blatt zum Thema der Von Neumann Architektur.<br>
-			Schaut euch die folgenden Informationen an und füllt die frei stehenden Boxen aus. Die drei untersten Boxen können freigelassen
-			werden. Diese werden ersichtlich wenn das Thema des Speichers bearbeitet wurde.
+			</b> Vor euch findet ihr eine Mind-Map auf einem A3-Blatt zum Thema der Von Neumann Architektur. Schaut euch die folgenden Informationen an und füllt die frei stehenden Boxen aus. Die drei untersten Boxen, 
+			auf eurem ausgedrucken A3-Blatt, können freigelassen werden. Diese werden ersichtlich wenn das Thema des Speichers bearbeitet wurde.
 		</p>
 		<div class="center">
-			<img src="media/VNA_Diagram_blank.svg" alt="Von Neumann Architektur"><br>
+			<img src="media/VNA_Diagram_blank_index.svg" alt="Von Neumann Architektur"><br>
 		</div>
 		<p>
 		Das Funktionsprinzip eines Computers wurde vom ungarischen Mathematiker John von Neumann entwickelt. Zwar hat sich die praktische 
@@ -90,12 +89,45 @@
 		wenn Daten aus dem Speicher geladen werden und gleichzeitig neue Instruktionen ausgeführt werden müssen, um das Rechenwerk 
 		optimal auszulasten. Man spricht deshalb auch vom "Von-Neumannschen-Flaschenhals". Obwohl der Von-Neumann-Rechner ein sehr 
 		einfaches Modell eines Computers ist, basieren alle modernen Computer auf diesem einfachen Prinzip.
+		<p>
+			Falls ihr bei der Mindmap nicht weiterkommt, könnt ihr den Hilfe Button drücken. Dieser wird euch die Begriffe vorgeben, die in die Mindmap einzutragen sind. Die Begriffe sind nicht sortiert.
+		</p>
+		<button id="listButton" type="button">Hilfe</button><br>
+		<div id="hiddenList" hidden>
+			<ul>
+				<li>
+					Memory
+				</li>
+				<li>
+					Output
+				</li>
+				<li>
+					Input
+				</li>
+				<li>
+					CPU
+				</li>
+				<li>
+					GPU
+				</li>
+				<li>
+					Mainboard/Bussystem
+				</li>
+				<li>
+					2x Rechenwerk (Logical Unit)
+				</li>
+				<li>
+					2x Steuerwerk (Control Unit)
+				</li>
+			</ul>
+		</div>
 	</div>
 	<div class="taskThree">
-		<b>Aufgabe 3:</b><br>
-		Vergleicht eure Mindmap mit der bereitgestellten Lösung und überprüft, ob eure Antworten mit dem Muster übereinstimmen.<br>
-		<button id="displayButton" type="button">Anzeigen</button><br>
-		
+		<b>Aufgabe 3:</b>
+		<p>
+			Vergleicht eure Mindmap mit der bereitgestellten Lösung und überprüft, ob eure Antworten mit dem Muster übereinstimmen.
+		</p>
+		<button id="displayButton" type="button">Anzeigen</button>
 		<div class="center">
 			<p id="hiddenImage" hidden>
 			<img src="media/VNA_Diagram_half-filled.svg" alt="Von Neumann Architektur">
