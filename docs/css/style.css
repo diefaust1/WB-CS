@@ -39,9 +39,6 @@ nav{
 	text-align: center;;
 }
 /*content of the page*/
-p{
-	
-}
 .p1Header {
 	font-weight: bold;      
 	text-align: center;
@@ -134,6 +131,12 @@ p{
 #displayButton {
 	background-color: red;
 	margin-top: 1em;
+	font-size: 1em;
+}
+#listButton {
+	background-color: red;
+	margin-top: 1em;
+	font-size: 1em;
 }
 #PSButton {
 	background-color: white;
@@ -172,7 +175,6 @@ label {
 	margin-top: 1em;
 	font-weight: bold;
 }
-
 textarea {
     width: 100%;
     max-width: 500px;
