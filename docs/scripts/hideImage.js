@@ -1,7 +1,8 @@
 const btn   = document.getElementById('displayButton');
 const img = document.getElementById('hiddenImage');
 
-
+const btnList = document.getElementById('listButton');
+const list = document.getElementById('hiddenList');
 
 btn.addEventListener('click', () => {
   const isHidden = img.hidden;
@@ -14,9 +15,6 @@ btn.addEventListener('click', () => {
   }
 });
 
-const btnList = document.getElementById('listButton');
-const list = document.getElementById('hiddenList');
-
 btnList.addEventListener('click', () => {
   const isHidden = list.hidden;
   list.hidden = !isHidden;
@@ -27,3 +25,4 @@ btnList.addEventListener('click', () => {
     btnList.textContent = 'Hilfe';
   }
 });
+
