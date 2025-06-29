@@ -8,8 +8,8 @@
 	
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="icon" href="media/28px_Faust.png" type="image/x-icon" />
+    <script defer src="scripts/hideText.js"></script>
   </head>
- 
   <body>
 	<header>
 		Einführung in die Hardwaretechnik
@@ -29,9 +29,9 @@
 	</div>
 	<div class="taskSeven">
     <p>
-        <b>Aufgabe 1:</b> Unter der Aufgabenstellung findet ihr Informationen und ein Video zum Thema GPU. Eure Aufgabe ist es, Informationen, die ihr als wichtig
-        erachtet, aus dem Text und dem Video zu entnehmen. Vermerkt eure Notizen entweder auf der Mindmap oder auf einem Extrablatt, falls nicht genügend
-        Platz vorhanden ist.
+        <b>Aufgabe 1:</b><br>
+        Unter der Aufgabenstellung findet ihr Informationen und ein Video zum Thema GPU. Eure Aufgabe ist es, wichtige Informationen aus dem Text und dem Video auf die Mindmap zu <b>übertragen</b>. Falls 
+		auf dem A3-Blatt nicht genügend Platz ist, könnt ihr auch ein Extrablatt verwenden.
     </p>
     <p>
         Diese Leitfragen können euch helfen, nach anfänglichen Informationen im Text oder den Videos zu suchen.
@@ -121,7 +121,7 @@
             </tr>
             <tr>
                 <td>Anzahl der Kerne</td>
-                <td>Wenige (z. B. 4–16 Kerne)</td>
+                <td>Wenige (z.B. 4-16 Kerne)</td>
                 <td>Hunderte bis Tausende</td>
             </tr>
             <tr>
@@ -137,64 +137,83 @@
             <tr>
                 <td>Entwicklung</td>
                 <td>Hauptprozessor seit Beginn der Computerentwicklung</td>
-                <td>Seit 1999 (z. B. Nvidia GeForce), stark gewachsen</td>
+                <td>Seit 1999 (z.B. Nvidia GeForce), stark gewachsen</td>
             </tr>
         </tbody>
     </table>
     <p>
         <b>Anmerkung:</b> CPU- und GPU-Kerne können nicht 1-zu-1 verglichen werden, da CPU-Kerne leistungsstärkere Rechenkerne sind, die komplexe
-        Befehle verarbeiten (z. B. Steuerung, Logik etc.). GPU-Kerne sind in den meisten Fällen einfacher aufgebaut und verfügen über weniger
+        Befehle verarbeiten (z.B. Steuerung, Logik etc.). GPU-Kerne sind in den meisten Fällen einfacher aufgebaut und verfügen über weniger
         Rechenleistung und Speicher. Sie sind dafür gemacht, viele kleine Aufgaben gleichzeitig sehr effizient auszuführen.
     </p>
-    <p class="p1Header">Wo kommen GPUs zum Einsatz?</p>
-    <ul>
-        <li>
-            <b>Videobearbeitung:</b><br>
-            Traditionell waren lange Rendering-Zeiten ein großes Hindernis bei der Verwendung von Consumer- und professioneller Bearbeitungssoftware. Seit
-            ihrer Erfindung haben GPUs die Verarbeitungszeiten und Rechenressourcen in Videobearbeitungsprogrammen wie Final Cut Pro und Adobe Premiere stetig
-            reduziert. Heutzutage können GPUs, die mit paralleler Verarbeitung und integrierter KI ausgestattet sind, die Bearbeitungsmöglichkeiten für alles,
-            von professionellen Bearbeitungssuiten bis hin zu Smartphone-Apps, dramatisch beschleunigen.
-        </li>
-        <li>
-            <b>Künstliche Intelligenz:</b><br>
-            KI und ihre vielen Anwendungen wären ohne GPU-Computing wohl unmöglich. Die Fähigkeit von GPUs, hochtechnische Probleme schneller und effizienter
-            zu lösen als herkömmliche CPUs, macht sie unverzichtbar. Grafikprozessoren sind entscheidende Komponenten vieler Supercomputer, insbesondere für
-            KI-Supercomputer. GPUs treiben viele führende KI-Anwendungen an, die hohe Geschwindigkeiten erfordern, um mit immer größeren Datensätzen zu trainieren.
-            KI-Modelle werden auf GPUs von Rechenzentren trainiert und ausgeführt, die in der Regel von Unternehmen betrieben werden, die wissenschaftliche
-            Forschung oder andere rechenintensive Aufgaben durchführen.
-        </li>
-        <li>
-            <b>Gaming:</b><br>
-            Die Gaming-Branche nutzte erstmals in den 1990er Jahren die Leistungsfähigkeit von GPUs, um das gesamte Spielerlebnis durch mehr Geschwindigkeit und
-            grafische Genauigkeit zu verbessern. Heutzutage sind viele Videospiele aufgrund von hyperrealen Szenarien, Echtzeit-Interaktionen und riesigen,
-            immersiven Welten sehr rechenintensiv. Trends im Gaming-Bereich wie Virtual Reality (VR), höhere Bildwiederholraten und höher aufgelöste
-            Bildschirme hängen alle von GPUs ab, um Grafiken in anspruchsvolleren Rechenumgebungen schnell zu liefern. Zu den GPUs für Spiele gehören AMD Radeon,
-            Intel Arc und Nvidia GeForce RTX.
-        </li>
-        <li>
-            <b>Visualisierung und Simulation:</b><br>
-            GPUs sind in vielen Branchen sehr gefragt, um das Erlebnis und die Schulungsmöglichkeiten komplexer Anwendungen zu verbessern,
-            z.B. bei Produktpräsentationen, medizinischen Kalkulationen oder auch geophysikalischen Darstellungen. GPUs sind von entscheidender
-            Bedeutung für fortschrittliche Visualisierungen. Sie helfen bei der Berufsausbildung von Feuerwehrleuten, Astronauten, Mechanikern und anderen mit
-            3D-Animationen. Des Weiteren werden auch Virtual Reality (VR) und Augmented Reality (AR) bei der Ausbildung eingesetzt, um den Lehrlingen neue
-            Erfahrungen hautnah zu vermitteln.
-        </li>
-    </ul>
-    <p class="p2Header">Video</p>
-    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/KRC1Mlz4rCk?si=Z_YqwYREd4lm9raD" title="YouTube video player"
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+    <p class="p1Header">
+        Wo kommen GPUs zum Einsatz?
+    </p>
+    <p>
+        Bevor ihr euch den Text „Wo kommen GPUs zum Einsatz?“ anschaut, möchte ich, dass ihr euch eigene Gedanken dazu macht und diese als Stichpunkte auf einem Extrablatt notiert. Danach <b>vergleicht</b> ihr den Text mit euren Ideen. 
+        Mit dem Button könnt ihr euch den Text anschauen.
+    </p>
+    <button id="GPUTextButton" type="button">
+        Anzeigen
+    </button>
+    <div id="hiddenGPUText" hidden>
+        <ul>
+            <li>
+                <b>Videobearbeitung:</b><br>
+                Traditionell waren lange Rendering-Zeiten ein großes Hindernis bei der Verwendung von Consumer- und professioneller Bearbeitungssoftware. Seit
+                ihrer Erfindung haben GPUs die Verarbeitungszeiten und Rechenressourcen in Videobearbeitungsprogrammen wie Final Cut Pro und Adobe Premiere stetig
+                reduziert. Heutzutage können GPUs, die mit paralleler Verarbeitung und integrierter KI ausgestattet sind, die Bearbeitungsmöglichkeiten für alles,
+                von professionellen Bearbeitungssuiten bis hin zu Smartphone-Apps, dramatisch beschleunigen.
+            </li>
+            <li>
+                <b>Künstliche Intelligenz:</b><br>
+                KI und ihre vielen Anwendungen wären ohne GPU-Computing wohl unmöglich. Die Fähigkeit von GPUs, hochtechnische Probleme schneller und effizienter
+                zu lösen als herkömmliche CPUs, macht sie unverzichtbar. Grafikprozessoren sind entscheidende Komponenten vieler Supercomputer, insbesondere für
+                KI-Supercomputer. GPUs treiben viele führende KI-Anwendungen an, die hohe Geschwindigkeiten erfordern, um mit immer größeren Datensätzen zu trainieren.
+                KI-Modelle werden auf GPUs von Rechenzentren trainiert und ausgeführt, die in der Regel von Unternehmen betrieben werden, die wissenschaftliche
+                Forschung oder andere rechenintensive Aufgaben durchführen.
+            </li>
+            <li>
+                <b>Gaming:</b><br>
+                Die Gaming-Branche nutzte erstmals in den 1990er Jahren die Leistungsfähigkeit von GPUs, um das gesamte Spielerlebnis durch mehr Geschwindigkeit und
+                grafische Genauigkeit zu verbessern. Heutzutage sind viele Videospiele aufgrund von hyperrealen Szenarien, Echtzeit-Interaktionen und riesigen,
+                immersiven Welten sehr rechenintensiv. Trends im Gaming-Bereich wie Virtual Reality (VR), höhere Bildwiederholraten und höher aufgelöste
+                Bildschirme hängen alle von GPUs ab, um Grafiken in anspruchsvolleren Rechenumgebungen schnell zu liefern. Zu den GPUs für Spiele gehören AMD Radeon,
+                Intel Arc und Nvidia GeForce RTX.
+            </li>
+            <li>
+                <b>Visualisierung und Simulation:</b><br>
+                GPUs sind in vielen Branchen sehr gefragt, um das Erlebnis und die Schulungsmöglichkeiten komplexer Anwendungen zu verbessern,
+                z.B. bei Produktpräsentationen, medizinischen Kalkulationen oder auch geophysikalischen Darstellungen. GPUs sind von entscheidender
+                Bedeutung für fortschrittliche Visualisierungen. Sie helfen bei der Berufsausbildung von Feuerwehrleuten, Astronauten, Mechanikern und anderen mit
+                3D-Animationen. Des Weiteren werden auch Virtual Reality (VR) und Augmented Reality (AR) bei der Ausbildung eingesetzt, um den Lehrlingen neue
+                Erfahrungen hautnah zu vermitteln.
+            </li>
+        </ul>
+    </div>
+    <p class="p2Header">
+        Video
+    </p>
+    <center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KRC1Mlz4rCk?si=Z_YqwYREd4lm9raD" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </center>
 	</div>
 	<div class="taskEight">
 		<b>Aufgabe 2:</b><br>
 		Vor euch findet ihr einen geöffneten Desktop-Computer. Schaut euch das bereitgestellte Video an und versucht selbst, die
-		eingebaute GPU aus- und wieder einzubauen. Schreibt euch in Stichpunkten einen Ablaufplan auf, wie ihr die GPU aus- und wieder eingebaut habt
+		eingebaute GPU aus- und wieder einzubauen. <b>Beschreibt</b> in Stichpunkten, wie ihr die GPU aus- und wieder eingebaut habt (Ablaufplan)
 		und welche Besonderheiten zu beachten sind, zum Beispiel: Was verbindet die Grafikkarte mit dem Mainboard? etc. Alle dafür benötigten
 		Werkzeuge könnt ihr euch vom Lehrertisch abholen.<br>
-		<p class="p2Header">Video</p>
-		<center><iframe width="560" height="315" src="https://www.youtube.com/embed/iPSVTAdAvO0?si=TtHqNVuiC60RDj17" title="YouTube video player"
-				frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+		<p class="p2Header">
+            Video
+        </p>
+		<center>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iPSVTAdAvO0?si=TtHqNVuiC60RDj17" title="YouTube video player"
+			frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+			referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </center>
 	</div>
 	<div class="pageEnd">
 		Wenn ihr mit dem Kapitel fertig seid, besucht eines der anderen (
