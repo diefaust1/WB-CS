@@ -11,3 +11,4 @@ gpuButton.addEventListener('click', () => {
     gpuButton.textContent = 'Anzeigen';
   }
 });
+
