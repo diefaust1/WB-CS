@@ -25,4 +25,3 @@ btnList.addEventListener('click', () => {
     btnList.textContent = 'Hilfe';
   }
 });
-

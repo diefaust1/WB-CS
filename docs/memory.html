@@ -8,7 +8,7 @@
 	
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="icon" href="media/28px_Faust.png" type="image/x-icon" />
-	<script defer src="scripts/hideImage.js"></script>
+	<script defer src="scripts/memoryScript.js"></script>
   </head>
  
  <body>
@@ -31,7 +31,8 @@
 	<div class="taskNine">
         <b>Aufgabe 1:</b><br>
         Schaut euch die Videos und Informationen zum Thema Speicher an. Eure Aufgabe ist es, wichtige Informationen aus dem Text und dem Video auf die Mindmap zu <b>übertragen</b>. Falls 
-		auf dem A3-Blatt nicht genügend Platz ist, könnt ihr auch ein Extrablatt verwenden. Anschließend ergänzt ihr die fehlenden Speichertypen auf der Mindmap.<br>Tipp: Ein Speichertyp ist ein flüchtiger Speicher, ein anderer sind zwei Festspeicher 
+		auf dem A3-Blatt nicht genügend Platz ist, könnt ihr auch ein Extrablatt verwenden. Anschließend ergänzt ihr die fehlenden Speichertypen in der Mindmap auf dem A3-Blatt. Unter dem Text und dem Video findet ihr außerdem ein Kreuzworträtsel, das ihr als Extrablatt erhaltet.
+        <br>Tipp: Ein Speichertyp ist ein flüchtiger Speicher, ein anderer sind zwei Festspeicher 
         und der dritte steht mit der GPU in Verbindung. Die Reihenfolge der Speichertypen spielt keine Rolle.
         <p>
             Diese Leitfragen können euch helfen, nach anfänglichen Informationen im Text oder den Videos zu suchen.
@@ -170,6 +171,12 @@
 		begrenzt und wenn der verfügbare Speicherplatz erschöpft ist und nicht mehr für die laufenden Prozesse zur Verfügung steht, kann dies zu einer Verlangsamung des Systems führen. Moderne Betriebssysteme nutzen Techniken wie beispielsweise das Paging, um den Mangel 
 		an Speicher durch Auslagerung auf sekundäre Speicher zu kompensieren.
     </p>
+    <p>
+            <center><b>RAM-Module</b></center>
+        </p>
+        <div class="imageContainer">
+            <img src="media/ram.jpg" alt="Random Access Memory" width="40%" height="40%">
+        </div>
     <p class="p1Header">
 		Paging
 	</p>
@@ -202,25 +209,36 @@
             </li>
         </ul>
     </p>
-    <p>
-        <center><b>RAM-Riegel</b></center>
-    </p>
-    <div class="imageContainer">
-        <img src="media/ram.jpg" alt="Random Access Memory" width="40%" height="40%">
-    </div>
-    <p class="p2Header">Videos</p>
-    <div class="videoContainer">	
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/JTNWaFbJPw0?si=azh6cC-UqjeIlFML" title="YouTube video player" 
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7Cw2MvuTqkM?si=jDvHbsNCGaKgmjY9" title="YouTube video player" 
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
+        <p class="p2Header">Videos</p>
+        <div class="videoContainer">	
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JTNWaFbJPw0?si=azh6cC-UqjeIlFML" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7Cw2MvuTqkM?si=jDvHbsNCGaKgmjY9" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <p class="p2Header">
+			Kreuzworträtsel
+		</p>
+		<div class="imageContainer">
+			<img src="media/riddle2_ready.svg" alt="Crossword2" width="100%" height="100%">
+		</div>
+        <p>
+			Mit dem Aufdecken-Button könnt ihr euch die Lösung des Kreuzworträtsels anschauen.
+		</p>
+		<button id="crosswordButton2" type="button">Aufdecken</button>
+		<div class="center">
+			<p id="hiddenCrossword2" hidden>
+			<img src="media/riddle2_solved.svg" alt="solvedCrossword2" width="60%" height="60%">
+			</p>
+		</div>
 	</div>
     <div class="taskTen">
-        <b>Aufgabe 2:</b> Mit dem Button könnt ihr eure Ergebnisse mit der Musterlösung zur Mindmap vergleichen.<br>
+        <b>Aufgabe 2:</b> 
+        <p>Mit dem Button könnt ihr eure Ergebnisse mit der Musterlösung zur Mindmap vergleichen.</p>
         <button id="displayButton" type="button">Anzeigen</button><br>
         <div class="center">
             <p id="hiddenImage" hidden>

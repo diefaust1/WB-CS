@@ -128,18 +128,8 @@ nav{
 	justify-content: center;
 	gap: 50px;
 }
-#displayButton {
+button {
 	background-color: red;
-	margin-top: 1em;
-	font-size: 1em;
-}
-#listButton {
-	background-color: red;
-	margin-top: 1em;
-	font-size: 1em;
-}
-#GPUTextButton {
-	background-color: rgb(255, 0, 0);
 	margin-top: 1em;
 	font-size: 1em;
 }
