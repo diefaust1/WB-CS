@@ -36,7 +36,8 @@ nav{
 	background-color: #eae4e1;
 }
 .center {
-	text-align: center;;
+	text-align: center;
+	justify-content: center;
 }
 /*content of the page*/
 .p1Header {
@@ -131,6 +132,7 @@ nav{
 button {
 	background-color: red;
 	margin-top: 1em;
+	margin-bottom: 1em;
 	font-size: 1em;
 }
 #PSButton {
