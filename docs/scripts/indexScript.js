@@ -4,6 +4,10 @@ const img = document.getElementById('hiddenImage');
 const btnList = document.getElementById('listButton');
 const list = document.getElementById('hiddenList');
 
+const helpButton = document.getElementById('indexHelpButton');
+const helpText = document.getElementById('indexHiddenText');
+
+
 btn.addEventListener('click', () => {
   const isHidden = img.hidden;
   img.hidden   = !isHidden;
@@ -23,5 +27,16 @@ btnList.addEventListener('click', () => {
     btnList.textContent = 'Lösung verstecken';
   } else {
     btnList.textContent = 'Hilfe';
+  }
+});
+
+helpButton.addEventListener('click', () => {
+  const isHidden = helpText.hidden;
+  helpText.hidden = !isHidden;
+
+  if (isHidden) {
+    helpButton.textContent = 'Lösung verstecken';
+  } else {
+    helpButton.textContent = 'Hilfe';
   }
 });

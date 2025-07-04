@@ -8,6 +8,7 @@
 	
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="icon" href="media/28px_Faust.png" type="image/x-icon" />
+    <script defer src="scripts/busScript.js"></script>
   </head>
  
   <body>
@@ -30,11 +31,11 @@
 	<div class="taskTwelve">
     <p>
         <b>Aufgabe 1:</b><br>
-        Schaut euch die Videos und Informationen zum Thema Mainboard &#38; Anschlüsse an. Eure Aufgabe ist es, wichtige Informationen aus dem Text und dem Video auf die Mindmap zu <b>übertragen</b>. Falls 
-		auf dem A3-Blatt nicht genügend Platz ist, könnt ihr auch ein Extrablatt verwenden.
+        Unter der Aufgabenstellung findet ihr Informationen und Fragen zum Thema Mainboard &#38; Anschlüsse. Eure Aufgabe ist es, die Mindmap mit wichtigen Informationen zu <b>erweitern</b>. Fangt mit einer eigenen Recherche zum Thema an und versucht, die Fragen zu beantworten. 
+		Euch ist es freigestellt, auch die Texte und Videos von dieser Webseite zu verwenden. Falls auf dem A3-Blatt nicht genügend Platz ist, könnt ihr auch ein Extrablatt verwenden.
     </p>
     <p>
-        Diese <b>Leitfragen</b> können euch helfen, nach anfänglichen Informationen im Text oder den Videos zu suchen.
+        Diese <b>Leitfragen</b> können euch helfen, nach anfänglichen Informationen zu suchen. Sucht auch gerne nach anderen Informationen, die euch interessieren.
         <ol>
             <li>
                 Was ist das BIOS?
@@ -48,8 +49,75 @@
             <li>
                 Was ist die Aufgabe des Mainboard-Chipsatzes?
             </li>
+            <li>
+                Welche Anschlüsse für externe Geräte besitzt das Mainboard?
+            </li>
         </ol>
     </p>
+    <p>
+        <b>Aufgabe</b>: Das Mainboard <br>
+        <b>Beschriftet</b> alle 11 Komponenten, die auf dem Mainboard blau umrandet sind. Verwendet euer Wissen aus der Recherche oder den bereitgestellten Texten und Videos. Falls ihr Hilfe benötigt, verwendet den "Hilfe"-Button. Dieser wird euch die Namen der 
+        Komponenten verraten. Die Namen sind nicht sortiert und müssen trotzdem zugeordnet werden. Am Ende könnt ihr mit der Musterlösung <b>vergleichen</b> - öffnet diese mit dem "Aufdecken"-Button. Ihr erhaltet das Bild vom Mainboard entweder 
+        vom Lehrertisch oder verwendent die digitale <a href="media/Mainboard_digital.pdf" target="_blank">Version</a>.
+    </p>
+    <div class="center">
+        <img src="media/mainboard_noLabels.png" alt="Mainboard ohne Beschriftung" width="60%" height="60%"><br>
+        
+    </div>
+    <div class="buttonContainer">
+        <button id="busHelpButton" type="button">Hilfe</button>
+        <button id="busButton" type="button">Aufdecken</button>
+    </div>
+    <div id="hiddenHelp" hidden>
+        <p>
+            <ul>
+				<li>
+					CPU Sockel
+				</li>
+				<li>
+					DIMM-Slots für SDRAM
+				</li>
+				<li>
+					Anschlüsse Netzteil
+				</li>
+				<li>
+					Externe Schnittstelle
+				</li>
+				<li>
+					Chipsatz
+				</li>
+				<li>
+					SATA-Anschlüsse für Laufwerke/Festplatten
+				</li>
+				<li>
+					PCIe-x16-Slot
+				</li>
+				<li>
+					Batterie für Echtzeituhr
+				</li>
+                <li>
+					PCIe-x1-Slot
+				</li>
+                <li>
+					M.2-Steckplatz für SSD
+				</li>
+                <li>
+					Anschluss für Gehäuse-Schnittstellen
+				</li>
+			</ul>
+        </p>
+    </div>
+    <div id="hiddenSolution" class="center" hidden>
+        <p>
+            <b>Beispiel Mainboard</b>
+        </p>
+
+        <img src="media/mainboard_beschriftet.png" alt="Mainboard mit Beschriftung" width="60%" height="60%">
+
+        <p>
+            <i>Bild von <a href="https://www.elektronik-kompendium.de/sites/com/0309231.htm">Elektronik Kompendium</a></i>
+        </p>
+    </div>
     <p class="p1Header">Was ist die Hauptplatine (Mainboard) in einem Computer?</p>
     <p>
         Eine Hauptplatine ist eine wichtige Komponente eines jeden Computersystems. Sie ist das Rückgrat des Computers und verbindet alle anderen Komponenten wie CPU, 
@@ -57,15 +125,6 @@
         Netzwerk von Hardwarekomponenten zu bilden. Darüber hinaus verfügen Motherboards auch über integrierte Funktionen wie USB-Anschlüsse für den Anschluss externer Geräte, 
         Audiobuchsen für die Soundausgabe und Ethernet-Anschlüsse für die Netzwerkfähigkeit. Kurz gesagt, die Hauptplatine bildet die Grundlage eines jeden 
         Computersystems und stellt den Rahmen für alle Funktionen dar, die für einen ordnungsgemäßen Betrieb erforderlich sind.
-    </p>
-    <p>
-        <center><b>Beispiel Mainboard</b></center>
-    </p>
-    <div class="imageContainer">
-        <img src="media/mainboard_beschriftet.png" alt="Mainboard mit Beschriftung" width="60%" height="60%">
-    </div>
-    <p>
-        <center><i>Bild von <a href="https://www.elektronik-kompendium.de/sites/com/0309231.htm">Elektronik Kompendium</a></i></center>
     </p>
     <p class="p1Header">Wofür wird die Hauptplatine verwendet?</p>
     <p>
